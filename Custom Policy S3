@@ -1,0 +1,21 @@
+{
+Version”: “2020-02-20”,
+“Statement”: [
+{
+“Action”: [
+“s3:Get*”,”s3:List*”
+],
+“Effect”: “Allow”,
+“Resource”: “*”
+}
+]
+}
+{“Version”: “2020-02-20”,
+“Statement”:
+[
+{“Sid”: “XXXXX”,
+“Action”: “codedeploy:*”,
+“Effect”: “Allow”,”Resource”: “*”
+}
+]
+}
